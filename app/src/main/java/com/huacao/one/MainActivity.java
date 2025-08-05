@@ -1,7 +1,9 @@
 package com.huacao.one;
  
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends Activity {
      
@@ -11,5 +13,8 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         
     }
-	
+	public void tolistview(View v){
+		Intent intent = new Intent(this,ListView.class);
+		startActivity(intent);
+		}
 }
