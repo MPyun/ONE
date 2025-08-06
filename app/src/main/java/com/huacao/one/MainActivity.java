@@ -17,8 +17,8 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this,ListView.class);
 		startActivity(intent);
 		}
-	public void toRecycleView(View v){
-		Intent intent = new Intent(this,RecycleView.class);
+	public void toBAListView(View v){
+		Intent intent = new Intent(this,BAListView.class);
 		startActivity(intent);
 	}
 }

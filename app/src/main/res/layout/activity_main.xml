@@ -19,7 +19,7 @@
 		android:layout_height="wrap_content"
 		android:text="BAListView"
 		android:textAllCaps="false"
-		android:onClick="toRecycleView"/>
+		android:onClick="toBAListView"/>
 
 </LinearLayout>
 

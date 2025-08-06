@@ -30,7 +30,7 @@
 
         <activity android:name=".ListView"/>
 
-        <activity android:name=".RecycleView"/>
+        <activity android:name=".BAListView"/>
 
     </application>
 

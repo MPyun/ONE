@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 import android.widget.ListView;
 
-public class RecycleView extends Activity {
+public class BAListView extends Activity {
     private ListView lv;
 	private List<DataBean> data;
     @Override
