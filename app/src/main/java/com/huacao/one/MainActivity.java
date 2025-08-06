@@ -10,11 +10,15 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_item1);
+        setContentView(R.layout.activity_main);
         
     }
-	public void tolistview(View v){
+	public void toListView(View v){
 		Intent intent = new Intent(this,ListView.class);
 		startActivity(intent);
 		}
+	public void toRecycleView(View v){
+		Intent intent = new Intent(this,RecycleView.class);
+		startActivity(intent);
+	}
 }

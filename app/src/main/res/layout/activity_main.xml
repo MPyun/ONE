@@ -12,12 +12,14 @@
 		android:text="ListView"
 		android:textAllCaps="false"
 		android:id="@+id/listviewbt"
-		android:onClick="tolistview"/>
+		android:onClick="toListView"/>
 
 	<Button
 		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:text="Button"/>
+		android:text="RecycleView"
+		android:textAllCaps="false"
+		android:onClick="toRecycleView"/>
 
 </LinearLayout>
 
