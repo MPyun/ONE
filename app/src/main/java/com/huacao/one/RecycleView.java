@@ -12,7 +12,7 @@ public class RecycleView extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_recycleview);
+        setContentView(R.layout.activity_balistview);
 		initview();
         initdata();
         MbaseAdapter adapter = new MbaseAdapter(this, data);
@@ -146,7 +146,7 @@ public class RecycleView extends Activity {
 	}
 
 	private void initview() {
-	lv = findViewById(R.id.activityrecycleviewListView1);
+	lv = findViewById(R.id.activitybalistviewListView1);
 	}
 
 
