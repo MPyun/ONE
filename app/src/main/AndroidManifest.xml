@@ -30,6 +30,8 @@
 
         <activity android:name=".ListView"/>
 
+        <activity android:name=".RecycleView"/>
+
     </application>
 
 </manifest>
