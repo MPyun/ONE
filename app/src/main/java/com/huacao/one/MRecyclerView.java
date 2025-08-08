@@ -6,6 +6,8 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import java.util.List;
 import java.util.ArrayList;
+import android.support.v7.widget.StaggeredGridLayoutManager;
+import android.support.v7.widget.GridLayoutManager;
 
 public class MRecyclerView extends Activity {
     private RecyclerView recyclerView;
@@ -16,8 +18,12 @@ public class MRecyclerView extends Activity {
         setContentView(R.layout.activity_recycleview);
 		recyclerView = findViewById(R.id.activityrecycleviewRecyclerView1);
 		LinearLayoutManager lm = new LinearLayoutManager(this);
+		//垂直单列布局
+		StaggeredGridLayoutManager slm = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
+		//瀑布流两列布局
+		GridLayoutManager glm = new GridLayoutManager(this,5,GridLayoutManager.VERTICAL,false);
 		data = new ArrayList<DataBean>();
-		recyclerView.setLayoutManager(lm);
+		recyclerView.setLayoutManager(slm);
 			data = new ArrayList<DataBean>();
 			// 微信聊天信息列表模拟数据
 			DataBean d1 = new DataBean();

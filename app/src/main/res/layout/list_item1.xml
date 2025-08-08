@@ -40,5 +40,12 @@
 		android:id="@+id/listitem1TextView2"
 		android:layout_marginBottom="12dp"/>
 
+	<View
+		android:background="?android:attr/dividerVertical"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_below="@id/listitem1TextView2"
+		android:layout_toRightOf="@id/listitem1ImageView1"/>
+
 </RelativeLayout>
 
