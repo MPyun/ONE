@@ -32,6 +32,8 @@
 
         <activity android:name=".BAListView"/>
 
+        <activity android:name=".MRecyclerView"/>
+
     </application>
 
 </manifest>

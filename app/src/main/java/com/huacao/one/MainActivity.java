@@ -21,4 +21,8 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this,BAListView.class);
 		startActivity(intent);
 	}
+	public void toRecyclerView(View v){
+		Intent intent = new Intent(this,MRecyclerView.class);
+		startActivity(intent);
+	}
 }

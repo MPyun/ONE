@@ -19,7 +19,7 @@ public class BAListView extends Activity {
         lv.setAdapter(adapter);
     }
 
-	private void initdata() {
+	public void initdata() {
 		data = new ArrayList<DataBean>();
 		// 微信聊天信息列表模拟数据
 		DataBean d1 = new DataBean();
