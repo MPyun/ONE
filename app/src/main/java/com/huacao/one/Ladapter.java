@@ -30,6 +30,7 @@ public class Ladapter extends RecyclerView.Adapter<Ladapter.ViewHolder> {
 		vH.content.setText(n1.getContent());
 		vH.title.setText(n1.getTitle());
 		vH.img1.setImageResource(n1.getImgid());
+        vH.img1.setRotation(30f);
 		//新建对象，设置数据(内部类成员变量)
 		
 		

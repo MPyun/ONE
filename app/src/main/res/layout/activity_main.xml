@@ -1,35 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:orientation="vertical">
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:orientation="vertical">
 
-	<com.google.android.material.button.MaterialButton
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="ListView"
-        app:cornerRadius="10dp"
-		android:textAllCaps="false"
-		android:id="@+id/listviewbt"
-		android:onClick="toListView"/>
+    <com.google.android.material.button.MaterialButton
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:onClick="toListView"
+         app:cornerRadius="10dp"
+         android:textAllCaps="false"
+         android:text="ListView"
+         android:id="@+id/listvie" />
 
-	<com.google.android.material.button.MaterialButton
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-		android:text="BAListView"
-        app:cornerRadius="10dp"
-		android:textAllCaps="false"
-		android:onClick="toBAListView"/>
-	<com.google.android.material.button.MaterialButton
-		android:layout_width="wrap_content"
-		android:layout_height="wrap_content"
-        app:cornerRadius="10dp"
-		android:text="RecyclerView"
-		android:textAllCaps="false"
-		android:onClick="toRecyclerView"/>
+    <com.google.android.material.button.MaterialButton
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:onClick="toBAListView"
+         app:cornerRadius="10dp"
+         android:textAllCaps="false"
+         android:text="BAListView" />
 
+    <com.google.android.material.button.MaterialButton
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:onClick="toRecyclerView"
+         app:cornerRadius="10dp"
+         android:textAllCaps="false"
+         android:text="RecyclerView" />
+
+    <com.google.android.material.button.MaterialButton
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         app:cornerRadius="10dp"
+         android:textAllCaps="false"
+         android:id="@+id/changefragment"
+         android:text="ChangeFragment" />
+
+    <FrameLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:id="@+id/contp">
+
+    </FrameLayout>
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+        android:text="默认"
+        android:textSize="30sp"
+         android:id="@+id/tv" />
 
 </LinearLayout>
-
